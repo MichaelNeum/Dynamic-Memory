@@ -8,4 +8,8 @@ public:
 	int Area() {
 		return a * b;
 	}
+	void setHeightWidth(int height, int width) {
+		this->a = height;
+		this->b = width;
+	}
 };
